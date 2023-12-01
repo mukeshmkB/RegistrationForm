@@ -1,0 +1,112 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0px #eeeef4;
+  min-height: 90vh;
+  margin: 15px 10px 15px 10px;
+}
+.form-heading {
+  font-family: 'roboto';
+  font-size: 34px;
+  color: #ea580c;
+}
+@media screen and (max-width: 767px) {
+  .registration-container {
+    box-shadow: none;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .form-heading {
+    font-size: 28px;
+  }
+}
+.form-container {
+  background-color: white;
+  width: 350px;
+  height: 260px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 28px 48px 28px;
+}
+@media screen and (max-width: 767px) {
+  .form-container {
+    width: 100%;
+    box-shadow: none;
+  }
+}
+.input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.input-label {
+  font-family: 'roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #475569;
+}
+.input-name {
+  height: 30px;
+  border: 1px solid #cbd2d9;
+  font-size: 13px;
+  font-family: 'roboto';
+  color: #9aa5b1;
+  padding: 5px;
+  border-radius: 2px;
+}
+.submit-btn {
+  background-color: #ea580c;
+  color: white;
+  font-family: 'roboto';
+  font-size: 10px;
+  width: 70px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+}
+@media screen and (max-width: 767px) {
+  .submit-btn {
+    width: 100%;
+  }
+}
+.err-msg {
+  font-size: 10px;
+  font-family: 'roboto';
+  color: #ff0b37;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.submit-msg {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #475569;
+}
+.success-icon {
+  width: 50px;
+  height: 50px;
+}
+.submit-btn-success {
+  background-color: #ea580c;
+  color: white;
+  font-family: 'roboto';
+  font-size: 12px;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+}
